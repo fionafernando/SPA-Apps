@@ -1,0 +1,11 @@
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\bin\Debug\PLM.DataContract.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\bin\Debug\PLM.DataContract.pdb
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\bin\Debug\AutoMapper.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\bin\Debug\PLM.Data.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\bin\Debug\EntityFramework.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\bin\Debug\PLM.Data.pdb
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\bin\Debug\AutoMapper.xml
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\bin\Debug\EntityFramework.xml
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\obj\Debug\PLM.DataContract.csprojResolveAssemblyReference.cache
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\obj\Debug\PLM.DataContract.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataContract\obj\Debug\PLM.DataContract.pdb

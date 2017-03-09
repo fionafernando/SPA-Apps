@@ -1,0 +1,5 @@
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataServices\bin\Debug\PLM.DataServices.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataServices\bin\Debug\PLM.DataServices.pdb
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataServices\obj\Debug\PLM.DataServices.csprojResolveAssemblyReference.cache
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataServices\obj\Debug\PLM.DataServices.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.DataServices\obj\Debug\PLM.DataServices.pdb

@@ -1,0 +1,16 @@
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\PLM.Repository.dll.config
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\PLM.Repository.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\PLM.Repository.pdb
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\EntityFramework.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\PLM.Data.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\PLM.DataContract.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\AutoMapper.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\PLM.DataContract.pdb
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\PLM.Data.pdb
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\EntityFramework.xml
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\bin\Debug\AutoMapper.xml
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\obj\Debug\PLM.Repository.csprojResolveAssemblyReference.cache
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\obj\Debug\PLM.Repository.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Repository\obj\Debug\PLM.Repository.pdb

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PLMQA_8181Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReferenceNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TypeId" Type="Int64" />
+    <Property Name="MasterId" Type="Int64" Nullable="false" />
+    <Property Name="CurrentCycleId" Type="Int64" Nullable="false" />
+    <Property Name="CommentId" Type="Int64" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" Nullable="false" />
+    <Property Name="UpdatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int64" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="ReferencedProductNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsRepeat" Type="Boolean" />
+    <NavigationProperty Name="ProductMaster" Relationship="Self.FK_Product_ProductMaster" FromRole="Product" ToRole="ProductMaster" />
+  </EntityType>
+  <EntityType Name="ProductMaster">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReferenceNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CommentId" Type="Int64" />
+    <Property Name="DepartmentId" Type="Int64" Nullable="false" />
+    <Property Name="DesignLocationId" Type="Int64" Nullable="false" />
+    <Property Name="Range" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Brand" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GenericNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" Nullable="false" />
+    <Property Name="UpdatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int64" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="SeasonId" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Product_ProductMaster" FromRole="ProductMaster" ToRole="Product" />
+  </EntityType>
+  <Association Name="FK_Product_ProductMaster">
+    <End Role="ProductMaster" Type="Self.ProductMaster" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductMaster">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="MasterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PLMQA_8181Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="ProductMasters" EntityType="Self.ProductMaster" />
+    <AssociationSet Name="FK_Product_ProductMaster" Association="Self.FK_Product_ProductMaster">
+      <End Role="ProductMaster" EntitySet="ProductMasters" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
