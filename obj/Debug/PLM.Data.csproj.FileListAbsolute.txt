@@ -1,0 +1,10 @@
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\bin\Debug\PLM.Data.dll.config
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\bin\Debug\PLM.Data.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\bin\Debug\PLM.Data.pdb
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\bin\Debug\EntityFramework.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\bin\Debug\EntityFramework.xml
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\obj\Debug\PLM.Data.csprojResolveAssemblyReference.cache
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\obj\Debug\PLM.Data.dll
+c:\users\fiona.fernando\documents\visual studio 2013\Projects\myPLMwebApp\PLM.Data\obj\Debug\PLM.Data.pdb
