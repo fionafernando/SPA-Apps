@@ -10,7 +10,7 @@ namespace PLM.Repository
     public class StyleRepository : IStyleRepository
     {
         private PLMQA_8181Entities _dbContext;
-        public StyleRepository(PLMQA_8181Entities dbContext)
+        public StyleRepository(Entities dbContext)
         {
            // _dbContext = dbContext;
         }
