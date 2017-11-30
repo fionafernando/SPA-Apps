@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../Content/kendo.common.min.css" rel="stylesheet"/>
+    <link href="../Content/kendo.default.min.css" rel="stylesheet"/>
+    <link href="../Content/kendo.default.mobile.min.css" rel="stylesheet"/>
+    <link href="../Content/bootstrap-theme.css" rel="stylesheet"/>
+    <link href="../Content/bootstrap.css" rel="stylesheet"/>
+    <link href="../Content/main.css" rel="stylesheet"/>
+    <script src="../Scripts/lib/jquery.min.js"></script>
+    <script src="../Scripts/lib/knockout-2.2.0.js"></script>
+    <script src="../Scripts/lib/jquery.min.js"></script>
+    <script src="../Scripts/lib/kendo.all.min.js"></script>
+    <script src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/app/model/model.style.js"></script>
+    <script src="../Scripts/app/vm/vm.style.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">SPA Home Page</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">DashBoard</a></li>
+                <li><a href="_login.tmpl.html">Sign In</a></li>
+                <li><a href="_style.tmpl.html">Style</a></li>
+                <li><a href="_rawMaterial.tmpl.html">Raw Material</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<div id="example">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Create Style</h3>
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="style_Cust">Customer</label>
+                <select data-bind="options: customerList, value: customerId, optionsValue: 'id', optionsText: 'name'" class="form-control" id="style_Cust"></select>
+            </div>
+            <div class="form-group">
+                <label for="style_Dept">Department</label>
+                <select data-bind="options: deptList, value: deptId, optionsValue: 'id', optionsText: 'name'" class="form-control" id="style_Dept"></select>
+            </div>
+            <div class="form-group">
+                <label for="style_Season">Season</label>
+                <select data-bind="options: seasonList, value: seasonId, optionsValue: 'id', optionsText: 'name'" class="form-control" id="style_Season"></select>
+            </div>
+            <div class="form-group">
+                <label for="style_Des">Description</label>
+                <input data-bind="value: description" class="form-control" id="style_Des" placeholder="Description">
+            </div>
+            <div class="form-group">
+                <label for="style_StyleNo">Style No</label>
+                <input data-bind="value: styleNo" class="form-control" id="style_StyleNo" placeholder="Style No">
+            </div>
+            <button data-bind="click: style.addStyle" id="createStyle" type="button" class="mybtn">Create Style</button>
+            <button data-bind="click: style.getStyleData" id="getStyle" type="button" class="mybtn">Get Style</button>
+        
+        </div>
+    </div>
+</div>
+
+<div id="grid1">
+    <div id="grid"></div>
+</div>
+</body>
+</html>
