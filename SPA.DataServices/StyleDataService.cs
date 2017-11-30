@@ -19,7 +19,7 @@ namespace SPA.DataServices
 
         public IList<ProductMaster> GetAllProdcutMasters()
         {
-            using (var context = new PLMQA_8181Entities())
+            using (var context = new Entities())
             {
                 var query = from p in context.ProductMasters
                             select p;
