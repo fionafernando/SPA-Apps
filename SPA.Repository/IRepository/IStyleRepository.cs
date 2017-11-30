@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PLM.Data;
+using SPA.Data;
 
-namespace PLM.Repository
+namespace SPA.Repository
 {
     public interface IStyleRepository
     {
